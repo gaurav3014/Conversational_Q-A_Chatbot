@@ -3,4 +3,4 @@ openai
 huggingface_hub
 python-dotenv
 streamlit
-langchain_community
+langchain-community==0.2.12
