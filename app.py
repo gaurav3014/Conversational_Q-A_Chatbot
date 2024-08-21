@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 
-chat=ChatOpenAI(temperature=0.5)
+chat=OPEN_API_KEY(temperature=0.5)
 
 if 'flowmessages' not in st.session_state:
     st.session_state['flowmessages']=[
